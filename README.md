@@ -15,7 +15,6 @@ And from there, these commands might help as progress happens
 % spm build # run the thing
 % spm fetch # this updates the package and downloads everything
 % spm run # build and run the thing
-
 ```
 
 Here are all the aliases available:
