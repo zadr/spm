@@ -45,7 +45,7 @@ enum Command: String, CaseIterable {
 
 	var help: String {
 		let allAliases = aliases.map { "'\($0)'" }
-		let firstAlias = allAliases.first ?? "no first"
+		let firstAlias = allAliases.first! // non-empty array
 		let remainingAliases = allAliases.dropFirst()
 		let separator = Locale.current.groupingSeparator ?? ","
 		return firstAlias + " (aka: " + remainingAliases.joined(separator: "\(separator) ") + ")"
