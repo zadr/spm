@@ -12,7 +12,7 @@ The following commands will help get started on a new project
 And from there, these commands might help as progress happens
 ```
 % spm gen # make an xcodeproj
-% spm build # run the thing
+% spm build # build the thing
 % spm fetch # this updates the package and downloads everything
 % spm run # build and run the thing
 ```
