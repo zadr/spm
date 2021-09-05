@@ -36,7 +36,7 @@ OPTIONS:
 ```
 
 #### PR's welcome? I have my own little thing…
-Sure thing
+Sure thing. Follow the [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) and we'll be good to go.
 
 #### License
 Copyright 2021 Zachary Drayer
