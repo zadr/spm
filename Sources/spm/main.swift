@@ -35,7 +35,7 @@ enum Command: String, CaseIterable {
 	var aliases: [String] {
 		switch self {
 		case .app: return ["app", "ios"]
-		case .binary: return ["binary", "cli"]
+		case .binary: return ["binary", "cli", "tool"]
 		case .update: return ["download", "fetch", "refresh", "update"]
 		case .build: return ["build", "rebuild"]
 		case .projectGeneration: return ["edit", "generate", "ide", "project", "xcode"]
